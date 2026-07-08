@@ -6,7 +6,7 @@
     "soroban-index": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
