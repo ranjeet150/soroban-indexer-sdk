@@ -4,8 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "node init && tsx src/index.ts",
-    "build": "node init && tsc",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
