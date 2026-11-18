@@ -5,7 +5,7 @@
   "description": "Scaffolded Soroban Blockchain Indexer SDK Monorepo",
   "type": "module",
   "scripts": {
-    "build": "node init && pnpm -r run build",
+    "build": "pnpm -r run build",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint \"**/*.ts\" \"**/*.js\"",
